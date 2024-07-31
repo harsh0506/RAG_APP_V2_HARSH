@@ -1,3 +1,7 @@
+
+#### Create a templates folder in root and put index.html and upload.html file in it.
+
+
 #### Components
 1) Language : Python (3.10 or higher)
 2) Environment : Poetry
