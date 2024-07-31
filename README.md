@@ -32,6 +32,7 @@ The application leverages state-of-the-art natural language processing technique
 - **LLM**: Meta LLAMA 3 8b Chat
 - **Reranking**: Flashrank
 - **Containerization**: Docker
+- **Deployment and Registery**: GCP Cloud run and Artifact Registry 
 
 ## Video Demo (as the deployment for a longer time costs a lot for a side project)
 
@@ -73,5 +74,6 @@ docker run -d -p 80:5000 -p 443:5000 rag_app_v1 (to redirect http and https traf
 - Evaluation and Validation 
 - Scalability
 - Data Encrption
+- Decrease Image size form 665 mb to much less
 
   
