@@ -1,20 +1,41 @@
+## Introduction
 
-#### Create a templates folder in root and put index.html and upload.html file in it.
+This project is a Retrieval-Augmented Generation (RAG) application built with FastAPI. It allows users to upload PDF documents, initiate chat sessions, and interact with an AI model that provides answers based on the content of the uploaded documents.
+
+The application leverages state-of-the-art natural language processing techniques to provide accurate and context-aware responses to user queries.
+
+### For complete working code please connect with me @https://www.linkedin.com/in/harsh-joshi-ai-engineer/
+
+## Features
+
+- PDF document upload and processing
+- Session-based chat interactions
+- Real-time chat using WebSockets
+- HTTP POST endpoint for chat requests
+- Asynchronous processing for improved performance
+- Error handling and input validation
+- Processing time tracking for responses
+- Source attribution for answers
+
+### Create a templates folder in root and put index.html and upload.html file in it.
 
 
-#### Components
-1) Language : Python (3.10 or higher)
-2) Environment : Poetry
-3) GEN AI Framework : langchain
-4) Vector Store : FAISS
-5) Web framework : FASTAPI
-6) Reranking : Flashrank
-7) Embeddings : Fastembed ("jinaai/jina-embeddings-v2-small-en)
-8) LLM : Meta LLAMA 3 8b Chat
+## Technologies Used
 
+- **Language**: Python 3.10+
+- **Web Framework**: FastAPI
+- **ASGI Server**: Uvicorn
+- **Template Engine**: Jinja2
+- **AI Framework**: LangChain
+- **Vector Store**: FAISS
+- **Embeddings**: FastEmbed (jinaai/jina-embeddings-v2-small-en)
+- **LLM**: Meta LLAMA 3 8b Chat
+- **Reranking**: Flashrank
+- **Containerization**: Docker
+
+## Video Demo (as the deployment for a longer time costs a lot for a side project)
 
 [![IMAGE ALT TEXT HERE](Video_Thumbnail.png)](https://www.youtube.com/watch?v=zofEZxCC1Zw)
-
 
 
 #### RAG Working
