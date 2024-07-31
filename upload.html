@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload PDF</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <h1 class="text-2xl font-bold mb-4">Upload PDF</h1>
+        <form id="upload-form" class="bg-white rounded-lg shadow p-4" action="/upload" method="post" enctype="multipart/form-data">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="file">
+                    Select PDF file:
+                </label>
+                <input id="file" name="file" type="file" class="p-2 border border-gray-300 rounded">
+            </div>
+            <div class="flex">
+                <button type="submit" class="bg-blue-500 text-white p-2 rounded">Upload</button>
+            </div>
+        </form>
+        <div class="mt-4">
+            <a href="/chat" class="text-blue-500">Go to Chat</a>
+        </div>
+    </div>
+</body>
+</html>
