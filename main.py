@@ -1,4 +1,5 @@
 #### This is FASTAPI service created to work with rag class. Please Implment the rag class before using it. Below are the steps happing in the code.
+#### Create a templates folder in root and put index.html and upload.html file in it.
 
 # The application sets up a FastAPI server with WebSocket support
 # It uses Jinja2 templates for HTML rendering
